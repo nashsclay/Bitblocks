@@ -2,7 +2,7 @@
 
 If you just want the commands for VPS setup:
 ```
-https://raw.githubusercontent.com/nashsclay/Bitblocks/master/bitblocks_mn_setup.sh
+wget https://raw.githubusercontent.com/nashsclay/Bitblocks/master/bitblocks_mn_setup.sh
 chmod +x bitblocks_mn_setup.sh  
 ./bitblocks_mn_setup.sh 
 ```
