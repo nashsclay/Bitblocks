@@ -1,4 +1,4 @@
-# Bitblocks-Masternode Setup
+# BitBlocks-Masternode Setup
 
 If you just want the commands for VPS setup:
 ```
@@ -7,7 +7,7 @@ chmod +x bitblocks_mn_setup.sh
 ./bitblocks_mn_setup.sh 
 ```
 
-This Bitblocks-Masternode (MN) script will automatically install almost all of the MN for you. You just need to have your masternode genkey ready. This code comes from Zoldurs many many forks for MN scripts, visit his page here. https://github.com/zoldur  
+This BitBlocks-Masternode (MN) script will automatically install almost all of the MN for you. You just need to have your masternode genkey ready. This code comes from Zoldurs many many forks for MN scripts, visit his page here. https://github.com/zoldur  
 
 Please note to run this script you MUST:  
 
