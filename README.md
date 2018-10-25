@@ -1,4 +1,4 @@
-# BitBlocks-Masternode Setup
+# Bitblocks-Masternode Setup
 
 If you just want the commands for VPS setup:
 ```
