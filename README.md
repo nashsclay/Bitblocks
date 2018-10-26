@@ -21,7 +21,7 @@ Do note that this script does enable the MN to restart if it is somehow closed. 
 
 ## Setup Wallet on Local Computer
 
-Download the newest wallet for your computer here: https://www.campuscoinproject.org/
+Download the newest wallet for your computer here: https://bitblocksproject.com/
 
 Once downloaded run the wallet and allow it to fully sync <b>(nodes are hardcoded in the wallet)</b>
 Once fully synced, encrypt your wallet. You can do this by selecting Settings --> Encrypt Wallet. Follow the prompts, also keeping your passphrase safe! This will allow you to send coins and make changes. Do NOT loose this passphrase. Once the wallet closes, give it a few minutes to finish encrypting (nothing will show) and restart the wallet.
@@ -39,7 +39,7 @@ This is your MN private key. Keep this safe but close by as you will need it for
 
 Now it's time to transfer your coins to your MN1 address. Go to Send. Then go to Inputs and select the coins you wish the wallet to choose from to send to your MN1 address. After you chose those coins, press ok. Go to Receive tab and double click on the MN1 below on that screen. Your address should appear. Copy this address and paste it on the Send screen and if done correctly the name of your MN should appear in the label box.
 
-Next type in the amount of coins you wish to send to your MN (this coin should be 500000 CMPCO. NO more NO less). Once done, click Send
+Next type in the amount of coins you wish to send to your MN (this coin should be ***** BBK. NO more NO less). Once done, click Send
 
 Once sent, please allow the transaction to FULLY confirm. You can see this by looking at the Transactions tab. Once your coins fully confirm you need to go back to the console (Help --> Debug window --> console tab) and type in:
 
@@ -55,7 +55,7 @@ Once reopen the wallet, go to the Masternode tab and press Update.
 
 Eensure your MN appears, click Update if it does not appear. Now cointinue to the next section of this guide.
 
-## To Install the CampusCoin-Masternode on VPS Server
+## To Install the BitBlocks-Masternode on VPS Server
 
 Go through setting up the wallet and MN information on your computer. Then once that is ready to go, continue on to this guide. 
 
@@ -124,12 +124,12 @@ Will stop your masternode and wil automatically restart
 `bitblocks-cli stop`
 
 
-This will allow you to edit your masternode's wallet (not your computer's wallet). You can also you this command after the setup to fix if you input the incorrect MN key. Once open and done making changes, press Ctrl + o then Enter to save changes, then Ctrl + x to exit. Then run cmpco-cli stop to restart the MN.
+This will allow you to edit your masternode's wallet (not your computer's wallet). You can also you this command after the setup to fix if you input the incorrect MN key. Once open and done making changes, press Ctrl + o then Enter to save changes, then Ctrl + x to exit. Then run bitblocks-cli stop to restart the MN.
 
 `nano ~/.bitblocks/bitblocks.conf`
 
 
-This is where your CampusCoin-Masternode program files are saved to
+This is where your BitBlocks-Masternode program files are saved to
 
 `cd /usr/local/bin`
 
@@ -139,7 +139,7 @@ Return to root home folder
 `cd ~`
 
 
-This will give you access to the folder of CampusCoin-Masternode files. Notice the period in front of the folder. If your are in the home folder and do **ls** command, it will not show the folder. Period means hidden. Correct command to display this folder in the home folder is **ls -al**
+This will give you access to the folder of BitBlocks-Masternode files. Notice the period in front of the folder. If your are in the home folder and do **ls** command, it will not show the folder. Period means hidden. Correct command to display this folder in the home folder is **ls -al**
 
 `cd ~/.bitblocks`
 
