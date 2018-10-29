@@ -39,7 +39,7 @@ This is your MN private key. Keep this safe but close by as you will need it for
 
 Now it's time to transfer your coins to your MN1 address. Go to Send. Then go to Inputs and select the coins you wish the wallet to choose from to send to your MN1 address. After you chose those coins, press ok. Go to Receive tab and double click on the MN1 below on that screen. Your address should appear. Copy this address and paste it on the Send screen and if done correctly the name of your MN should appear in the label box.
 
-Next type in the amount of coins you wish to send to your MN (this coin should be ***** BBK. NO more NO less). Once done, click Send
+Next type in the amount of coins you wish to send to your MN (this coin should be 30000 BBK. NO more NO less). Once done, click Send
 
 Once sent, please allow the transaction to FULLY confirm. You can see this by looking at the Transactions tab. Once your coins fully confirm you need to go back to the console (Help --> Debug window --> console tab) and type in:
 
